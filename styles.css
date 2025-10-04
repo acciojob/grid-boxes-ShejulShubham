@@ -1,7 +1,8 @@
 /*  your css code here. If applicable */
 #grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, 242.5px);
+	grid-template-rows: repeat(5, 124px);
 	gap: 5px;
 }
 
@@ -14,11 +15,11 @@
 }
 
 #grid #one {
-	grid-column: 1/5;
+	grid-column: span 4/auto;
 }
 
 #grid #two {
-	grid-row: 2/6;
+	grid-row: span 2/auto;
 }
 
 #grid #four {
@@ -26,9 +27,9 @@
 }
 
 #grid #five {
-	grid-column: 2/4;
+	grid-column: span 2/auto;
 }
 
 #grid #ten {
-	grid-column: 2/5;
+	grid-column: span 3/auto;
 }
