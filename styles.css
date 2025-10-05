@@ -23,7 +23,7 @@
 }
 
 #grid #four {
-	grid-column: 3/5;
+	grid-column: span 2 /auto;
 }
 
 #grid #five {
